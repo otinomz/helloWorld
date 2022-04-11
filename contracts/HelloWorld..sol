@@ -8,8 +8,14 @@ pragma solidity >=0.7.0 <0.9.0;
 contract HelloWorld {
     // display Hello World as string variable
     string public displayHelloWorld = "Hello World";
-
+    
+    
+    /**
+     * @dev declaring unsigned integer as a global variable
+     * @param number declared as variable
+     */
     uint number;
+    
     /**
      * @dev Store value in variable
      * @param num value to store
@@ -17,6 +23,7 @@ contract HelloWorld {
     function storeNumber(uint num) public {
         number = num;
     }
+    
     /**
      * @dev Retrieve value of unsigned integer value 
      * @return value of 'number'
