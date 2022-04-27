@@ -12,7 +12,7 @@ contract HelloWorld {
     
     /**
      * @dev declaring unsigned integer as a global variable
-     * @param number declared as variable
+     * @number declared as variable
      */
     uint number;
     
